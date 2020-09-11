@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 body {
+    background-image: url(imagens/fundo.jpg);
+    background-position: 50%;
+    background-size: cover;
 }
 
 main#container {
+    background-color: #5f657056;
+    border-style: inset;
+    border-radius: 15px;
+    border-color: #525f6c7a;
+    box-shadow: 5px 5px 2px 0 #c6a3801f;
+}
+
+main#container:hover {
+    border-style: outset;
 }
 
 h1.titulo {
+    font-family: 'Amaranth', sans-serif;
+}
+
+h1.titulo:hover {
+    text-shadow: 0 0 5px #162731;
 }
 
 p.frase {
+    font-family: 'Dancing Script', cursive;
+    font-size: 125%;
+    font-weight: 800;
 }
 
 p.autor {
+    margin-right: 7px;
+    font-family: 'Allura', cursive;
+    font-size: 1.5em;
+    font-weight: 100;
+    transform: rotate(-15deg);
+    position: relative;
+    top: 10%;
 }
